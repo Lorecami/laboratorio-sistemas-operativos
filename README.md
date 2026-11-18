@@ -2,7 +2,7 @@
 
 Material didáctico interactivo para la asignatura de Sistemas Operativos: un tablero (dashboard) con **20 temas**, cada uno con un simulador, una animación o un juego, basado en los [Apuntes de Sistemas Operativos](https://ull-esit-sistemas-operativos.github.io/ssoo-apuntes/).
 
-**Autor:** _(escribe aquí tu nombre)_ · **Asignatura:** Sistemas Operativos
+**Autora:** Camila Vivas · **Asignatura:** Sistemas Operativos
 
 ## Cómo abrirlo
 
@@ -10,7 +10,7 @@ No hay que instalar nada. Está hecho solo con HTML, CSS y JavaScript, sin libre
 
 1. Clonar o descargar el repositorio:
    ```
-   git clone <URL-de-este-repositorio>
+   git clone https://github.com/Lorecami/laboratorio-sistemas-operativos.git
    ```
 2. Abrir el archivo `index.html` con cualquier navegador (doble clic).
 
