@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laboratorio de Sistemas Operativos</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="top">
+  <button id="menuBtn" class="icon-btn" aria-label="Abrir menú de temas">☰</button>
+  <a class="brand" href="#inicio"><span class="logo">SO</span><span>Laboratorio de Sistemas Operativos</span></a>
+  <div class="top-right">
+    <div class="timer" id="timer" title="Cronómetro para ensayar la presentación (5 minutos)">
+      <span id="timerTxt">5:00</span>
+      <button id="timerGo" class="mini">Iniciar</button>
+      <button id="timerReset" class="mini">Reiniciar</button>
+    </div>
+    <button id="themeBtn" class="icon-btn" aria-label="Cambiar tema claro u oscuro">◐</button>
+  </div>
+</header>
+<div class="layout">
+  <nav id="nav" class="side" aria-label="Temas"></nav>
+  <main id="main"></main>
+</div>
+<script src="js/core.js"></script>
+<script src="js/intro.js"></script>
+<script src="js/organizacion.js"></script>
+<script src="js/procesos.js"></script>
+<script src="js/memoria.js"></script>
+<script src="js/almacenamiento.js"></script>
+<script>OS.start();</script>
+</body>
+</html>
